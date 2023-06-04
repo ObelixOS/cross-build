@@ -11,6 +11,14 @@
 # 3. BUILD GCC
 # 4. CLEANUP
 
+#VALIDATION
+
+if [ $# -eq 0 ]
+  then
+    echo "No arguments supplied"
+    exit 0
+fi
+
 # Part 1. EXPORT VARS
 export PREFIX="$HOME/opt/cross"
 export TARGET=$1
