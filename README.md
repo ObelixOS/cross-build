@@ -12,4 +12,4 @@
 > > 2.1. GCC src folder: `src-gcc`
 > > 2.2. Binutils src folder: `src-binutils`
 > 3. Use, `chmod +rwx ./crossbuild.sh` to set a permissions
-> 4. Execute a `./crossbuild.sh`
+> 4. Execute a `./cross-build.sh [cross-platform]`
