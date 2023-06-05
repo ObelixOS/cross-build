@@ -57,5 +57,7 @@ make install-target-libgcc
 
 cd $HOME/cross-src
 
+rm -f -r build-gcc/*
+rm -f -r build-binutils/*
 rmdir build-gcc --ignore-fail-on-non-empty
 rmdir build-binutils --ignore-fail-on-non-empty
